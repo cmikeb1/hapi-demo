@@ -1,0 +1,12 @@
+server:
+  port: 10901
+
+spring:
+  datasource:
+    database: hapi_dstu2
+
+hapi:
+  fhir:
+    version: dstu2_hl7org
+    server:
+      path: /dstu2/*

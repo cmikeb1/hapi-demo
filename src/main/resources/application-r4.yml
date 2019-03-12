@@ -1,0 +1,12 @@
+server:
+  port: 10902
+
+spring:
+  datasource:
+    database: hapi_r4
+
+hapi:
+  fhir:
+    version: r4
+    server:
+      path: /r4/*

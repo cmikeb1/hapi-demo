@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://mysqldb.interopio-dev.com:3306/${spring.datasource.database}
+    username: hapi_demo
+    password: secret

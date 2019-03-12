@@ -1,0 +1,12 @@
+server:
+  port: 10900
+
+spring:
+  datasource:
+    database: hapi_stu3
+
+hapi:
+  fhir:
+    version: dstu3
+    server:
+      path: /stu3/*
